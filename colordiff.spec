@@ -7,6 +7,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Text
 Source0:	http://dl.sourceforge.net/colordiff/%{name}-%{version}.tar.gz
+# Source0-md5:	ac8eb1433fc817d6044ae8c0916b8f53
 URL:		http://colorize.raszi.hu/
 Buildarch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
