@@ -4,31 +4,29 @@ Summary(pl):	Skrypt w perlu do kolorowania diffów
 Name:		colordiff
 Version:	1.0.2
 Release:	1
-Group:		Applications/Text
 License:	GPL
+Group:		Applications/Text
+Source0:	http://dl.sourceforge.net/colordiff/%{name}-%{version}.tar.gz
 URL:		http://colorize.raszi.hu/
-Source0:	http://belnet.dl.sourceforge.net/sourceforge/colordiff/%{name}-%{version}.tar.gz
 Buildarch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This is a short perl script to colorize your diffs
+This is a short perl script to colorize your diffs.
 
 %description -l pl
-Colorize jest krótkim skryptem w perlu który umo¿liwi Ci pokolorowanie
+Colorize jest krótkim skryptem w perlu umo¿liwiaj±cym pokolorowanie
 diffów.
 
 %prep
 %setup -q
 
-gzip -9v %{name}.1
-
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1,%{_sysconfdir}}
 
-install %{name}.pl $RPM_BUILD_ROOT%{_bindir}/
-install %{name}.1.gz $RPM_BUILD_ROOT%{_mandir}/man1/
+install %{name}.pl $RPM_BUILD_ROOT%{_bindir}
+install %{name}.1 $RPM_BUILD_ROOT%{_mandir}/man1
 install %{name}rc $RPM_BUILD_ROOT%{_sysconfdir}/%{name}rc
 
 %clean
