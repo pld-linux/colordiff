@@ -3,7 +3,7 @@ Summary:	Perl script to colorize diffs
 Summary(pl):	Skrypt w perlu do kolorowania diffów
 Name:		colordiff
 Version:	1.0.4
-Release:	1
+Release:	3
 License:	GPL
 Group:		Applications/Text
 Source0:	http://dl.sourceforge.net/colordiff/%{name}-%{version}.tar.gz
