@@ -9,7 +9,7 @@ Group:		Applications/Text
 Source0:	http://dl.sourceforge.net/colordiff/%{name}-%{version}.tar.gz
 # Source0-md5:	ccdeeae7555b9fcbb7b8c47b3a92f904
 URL:		http://colorize.raszi.hu/
-Buildarch:	noarch
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
