@@ -9,6 +9,7 @@ Group:		Applications/Text
 Source0:	http://dl.sourceforge.net/colordiff/%{name}-%{version}.tar.gz
 # Source0-md5:	b8ef81a80dfa8a4c001915d03a73f7d1
 URL:		http://colordiff.sourceforge.net/
+BuildRequires:	perl-base
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
