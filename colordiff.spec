@@ -36,7 +36,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc CHANGES README BUGS TODO
+%doc BUGS CHANGES README
 %attr(755,root,root) %{_bindir}/*
 %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/*
 %{_mandir}/man1/*
