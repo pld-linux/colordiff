@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Perl script to colorize diffs
-Summary(pl.UTF-8):   Skrypt w Perlu do kolorowania diffów
+Summary(pl.UTF-8):	Skrypt w Perlu do kolorowania diffów
 Name:		colordiff
 Version:	1.0.6
 Release:	1
