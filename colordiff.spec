@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Perl script to colorize diffs
-Summary(pl):	Skrypt w Perlu do kolorowania diffów
+Summary(pl.UTF-8):   Skrypt w Perlu do kolorowania diffÃ³w
 Name:		colordiff
 Version:	1.0.6
 Release:	1
@@ -16,9 +16,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This is a short perl script to colorize your diffs.
 
-%description -l pl
-Colorize jest krótkim skryptem w Perlu umo¿liwiaj±cym pokolorowanie
-diffów.
+%description -l pl.UTF-8
+Colorize jest krÃ³tkim skryptem w Perlu umoÅ¼liwiajÄ…cym pokolorowanie
+diffÃ³w.
 
 %prep
 %setup -q
