@@ -1,13 +1,14 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Perl script to colorize diffs
+Summary(hu.UTF-8):	Egy Perl szkript, amely a diff kimenetét teszi színessé
 Summary(pl.UTF-8):	Skrypt w Perlu do kolorowania diffów
 Name:		colordiff
-Version:	1.0.8a
+Version:	1.0.9
 Release:	1
 License:	GPL v3
 Group:		Applications/Text
 Source0:	http://colordiff.sourceforge.net/%{name}-%{version}.tar.gz
-# Source0-md5:	2355debed9a9a0183c33ef27c62feb3b
+# Source0-md5:	31864847eaa4e900f72bbb6bbc64f1ec
 URL:		http://colordiff.sourceforge.net/
 BuildRequires:	rpm-perlprov
 # Required for docs:
@@ -17,6 +18,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This is a short perl script to colorize your diffs.
+
+%description -l hu.UTF-8
+Ez a rövidke perl szkript a diff parancs kimenetét teszi színek
+segítségével olvashatóbbá.
 
 %description -l pl.UTF-8
 Colorize jest krótkim skryptem w Perlu umożliwiającym pokolorowanie
