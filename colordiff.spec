@@ -3,12 +3,12 @@ Summary:	Perl script to colorize diffs
 Summary(hu.UTF-8):	Egy Perl szkript, amely a diff kimenetét teszi színessé
 Summary(pl.UTF-8):	Skrypt w Perlu do kolorowania diffów
 Name:		colordiff
-Version:	1.0.9
+Version:	1.0.10
 Release:	1
 License:	GPL v3
 Group:		Applications/Text
 Source0:	http://colordiff.sourceforge.net/%{name}-%{version}.tar.gz
-# Source0-md5:	31864847eaa4e900f72bbb6bbc64f1ec
+# Source0-md5:	e3e86e2837deb884e43eacdc96a67baa
 URL:		http://colordiff.sourceforge.net/
 BuildRequires:	rpm-perlprov
 # Required for docs:
