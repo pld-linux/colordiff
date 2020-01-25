@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	Perl script to colorize diffs
 Summary(hu.UTF-8):	Egy Perl szkript, amely a diff kimenetét teszi színessé
 Summary(pl.UTF-8):	Skrypt w Perlu do kolorowania diffów
